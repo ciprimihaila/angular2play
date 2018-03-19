@@ -7,7 +7,8 @@ import { FormsModule } from '@angular/forms';
 import {ProductFilterPipe} from './product/product-filter.pipe';
 import {StarComponent} from './shared/start.component';
 import { ProductService } from "./product/product.service";
-
+import {HttpClientModule} from '@angular/common/http';
+import 'rxjs/Rx';
 
 @NgModule({
   declarations: [
@@ -18,9 +19,12 @@ import { ProductService } from "./product/product.service";
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
-  providers: [ProductService],
+  providers: [ProductService,
+    
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
