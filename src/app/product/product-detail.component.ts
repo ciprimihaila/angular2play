@@ -9,7 +9,7 @@ export class ProductDetailComponent {
     pageTitle: string = 'Product Detail'
 
     constructor(private _activeRoute: ActivatedRoute, private _router : Router){
-        this.pageTitle += this._activeRoute.snapshot.params['id'];
+        this.pageTitle += " " + this._activeRoute.snapshot.params['id'];
     }
 
     onBack(): void {
