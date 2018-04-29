@@ -1,6 +1,6 @@
 # Angular Play Project
 
-This is an Angular 4 play project that build after following the course [**Angular 2: Getting Started**](https://www.pluralsight.com/courses/angular-2-getting-started)
+This is an Angular 4 play project build after following the course [**Angular 2: Getting Started**](https://www.pluralsight.com/courses/angular-2-getting-started)
 It is a sample Angular 4 application that covers main framework features:
 -   How to build components
 -   creating the user interface using a template, and power it up with data binding and directives.
